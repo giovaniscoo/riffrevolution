@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Blog de Guitarras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Blog de Guitarras</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <img src="images/logo.png" alt="Logo" class="logo">
+        </div>
+    </header>
+
+    <section class="contacto-hero">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o sugerencia? ¡Escríbenos!</p>
+        </div>
+    </section>
+
+    <section class="formulario-contacto">
+        <div class="container">
+            <div class="formulario-contenido">
+                <!-- Formulario de contacto -->
+                <form action="php/guardar.php" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tucorreo@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+
+                <!-- Información de contacto -->
+                <div class="informacion-contacto">
+                    <h3>Información de Contacto</h3>
+                    <p>¿Prefieres contactarnos directamente? Aquí tienes nuestras redes sociales y correo electrónico.</p>
+                    <ul>
+                        <li><strong>Email:</strong> info@blogdeguitarras.com</li>
+                        <li><strong>Teléfono:</strong> +52 55 1234 5678</li>
+                        <li><strong>Dirección:</strong> Ciudad de México, México</li>
+                    </ul>
+                    <div class="redes-sociales">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Blog de Guitarras. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Guitarras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Blog de Guitarras</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <img src="images/logo.png" alt="Logo" class="logo">
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="imagen-container">
+            <img src="images\guitarra casa.jpg" alt="Guitarra eléctrica en un escenario">
+        </div>
+        <div class="container">
+            <h2>Explora el mundo de las guitarras</h2>
+            <p>Descubre consejos, reviews y mucho más sobre tu instrumento favorito.</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Últimas Entradas</h2>
+            <div class="entradas">
+                <!-- Entrada 1 -->
+                <article>
+                    <div class="imagen-container">
+                        <img src="images\marshall.jpg" alt="Amplificador de guitarra">
+                    </div>
+                    <h3>Los mejores amplificadores para guitarra eléctrica</h3>
+                    <p>Descubre los amplificadores que todo guitarrista debería probar.</p>
+                    <a href="entrada1.html" class="btn">Leer más</a>
+                </article>
+                <!-- Entrada 2 -->
+                <article>
+                    <div class="imagen-container">
+                        <img src="images\guitarra acustica.jpeg" alt="Guitarra acústica">
+                    </div>
+                    <h3>Cómo mantener tu guitarra acústica en perfecto estado</h3>
+                    <p>Consejos prácticos para el cuidado de tu guitarra acústica.</p>
+                    <a href="entrada2.html" class="btn">Leer más</a>
+                </article>
+                <!-- Entrada 3 -->
+                <article>
+                    <div class="imagen-container">
+                        <img src="images\yamaha acustica.jpg" alt="Guitarra para principiantes">
+                    </div>
+                    <h3>Top 5 guitarras para principiantes</h3>
+                    <p>Las mejores opciones para empezar tu viaje musical.</p>
+                    <a href="entrada3.html" class="btn">Leer más</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o sugerencia? ¡Escríbenos!</p>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+            <div class="redes-sociales">
+                <a href="#">Facebook</a>
+                <a href="https://www.instagram.com/giovanisco/">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
